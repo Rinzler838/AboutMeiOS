@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IntroductionViewControllerUIViewController
+class IntroductionViewController : UIViewController
 {
     
 }

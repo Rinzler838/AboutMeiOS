@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Digital-->
+        <!--Digital View Controller-->
         <scene sceneID="v1z-PW-bKd">
             <objects>
-                <viewController id="ez3-Yc-ME8" customClass="Digital" sceneMemberID="viewController">
+                <viewController id="ez3-Yc-ME8" customClass="DigitalViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DH4-TO-Z8Y"/>
                         <viewControllerLayoutGuide type="bottom" id="LDb-cz-Nzy"/>
@@ -19,33 +19,77 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rn6-vV-nL2">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next &gt;"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="385" width="46" height="30"/>
+                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
                                 </variation>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuH-Ul-78J">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">I enjoy a variety of digital media , such as video games as I mentioned before. Some of which are pictured below: Infinity Blade &amp; The Ace Attorney series. Both have exquisite stories and great gameplay. Along with these I play games from both the Metroid and Zelda series, with my favorite entries being Twilight Princess, Ocarina of Time, Majora's Mask, Super Metroid, Other M, and Prime 3. As far as movies and shows go, my favorites include The Star Wars Saga, and a number of Japanese anime series.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="577" width="560" height="172"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ib" translatesAutoresizingMaskIntoConstraints="NO" id="7Ea-G9-0zg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="13" width="200" height="290"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gs5" translatesAutoresizingMaskIntoConstraints="NO" id="fye-5R-Ym4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="13" width="216" height="290"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mom" translatesAutoresizingMaskIntoConstraints="NO" id="4U7-oJ-Z4J">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="312" y="311" width="223" height="258"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tp" translatesAutoresizingMaskIntoConstraints="NO" id="MkA-SQ-KWS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="311" width="200" height="258"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="rn6-vV-nL2"/>
+                                <exclude reference="xuH-Ul-78J"/>
+                                <exclude reference="7Ea-G9-0zg"/>
+                                <exclude reference="fye-5R-Ym4"/>
+                                <exclude reference="4U7-oJ-Z4J"/>
+                                <exclude reference="MkA-SQ-KWS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="rn6-vV-nL2"/>
+                                <include reference="xuH-Ul-78J"/>
+                                <include reference="7Ea-G9-0zg"/>
+                                <include reference="fye-5R-Ym4"/>
+                                <include reference="4U7-oJ-Z4J"/>
+                                <include reference="MkA-SQ-KWS"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qb-zh-VEN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1102" y="925"/>
+            <point key="canvasLocation" x="1102" y="924.75"/>
         </scene>
-        <!--Introduction-->
+        <!--Introduction View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Introduction" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="IntroductionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -56,21 +100,40 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWt-vo-8ja">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next &gt;"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="385" width="46" height="30"/>
+                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
                                 </variation>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me" translatesAutoresizingMaskIntoConstraints="NO" id="uik-Ff-wQm">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="180" y="20" width="240" height="302"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-48-tfg">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">Greetings, my name is Deigen Villalobos. I am currently 16 years of age and live in Sandy, UT with my family of 5. I attend High school and am a Junior at the moment with plans to graduate and go to college. Along with reading and a few sports, I enjoy taking part on digital hobbies such as video games. Movies and TV-shows included as well. I debate, draw, run, and read, all in my spare time.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="330" width="560" height="140"/>
+                                </variation>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="qWt-vo-8ja"/>
+                                <exclude reference="uik-Ff-wQm"/>
+                                <exclude reference="Msw-48-tfg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="qWt-vo-8ja"/>
+                                <include reference="uik-Ff-wQm"/>
+                                <include reference="Msw-48-tfg"/>
                             </mask>
                         </variation>
                     </view>
@@ -80,12 +143,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-373" y="543"/>
+            <point key="canvasLocation" x="-434" y="150"/>
         </scene>
-        <!--Education-->
+        <!--Education View Controller-->
         <scene sceneID="fwG-eh-Vag">
             <objects>
-                <viewController id="Kcw-bz-ysB" customClass="Education" sceneMemberID="viewController">
+                <viewController id="Kcw-bz-ysB" customClass="EducationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xOj-F9-Tud"/>
                         <viewControllerLayoutGuide type="bottom" id="b0X-qx-1aR"/>
@@ -96,21 +159,41 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVa-9T-aav">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next &gt;"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="385" width="46" height="30"/>
+                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
                                 </variation>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1h-n1-hx9">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">As said before, I attend  High School at Jordan High in Sandy. this year as a Junior I am have dropped Chinese which I took for 4 years, and am attending CTEC. This leaves me with half of a schedule which is mostly comprised of Honors classes. In the past I have taken varied classes such, the aforementioned Chinese classes, Drawing, and Band where I played both the Flute and Saxophone.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="332" width="560" height="135"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jhs" translatesAutoresizingMaskIntoConstraints="NO" id="3vz-W2-IDP">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="51" y="20" width="499" height="304"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="TVa-9T-aav"/>
+                                <exclude reference="W1h-n1-hx9"/>
+                                <exclude reference="3vz-W2-IDP"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="TVa-9T-aav"/>
+                                <include reference="W1h-n1-hx9"/>
+                                <include reference="3vz-W2-IDP"/>
                             </mask>
                         </variation>
                     </view>
@@ -122,10 +205,10 @@
             </objects>
             <point key="canvasLocation" x="340" y="150"/>
         </scene>
-        <!--Cuisine-->
+        <!--Cuisine View Controller-->
         <scene sceneID="zXJ-fz-cDy">
             <objects>
-                <viewController id="MfG-SU-X0h" customClass="Cuisine" sceneMemberID="viewController">
+                <viewController id="MfG-SU-X0h" customClass="CuisineViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t5u-WV-wtv"/>
                         <viewControllerLayoutGuide type="bottom" id="0vM-jz-X5U"/>
@@ -136,21 +219,33 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2c-Bl-lgF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next &gt;"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="385" width="46" height="30"/>
+                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
                                 </variation>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cij-Jq-HVL">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">Cuisine is most likely too fancy a word for the food I enjoy.  I will try just about anything, be it fancy or not, and then form an opinion from then on out. My favorites are typically types of ethnic foods such as Thai, Oriental, Latin, and more. Below is pictured what you'd call an "Arepa", a typical dish from my native Venezuelan culture, and a personal favorite of mine.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="334" width="560" height="132"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="c2c-Bl-lgF"/>
+                                <exclude reference="cij-Jq-HVL"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="c2c-Bl-lgF"/>
+                                <include reference="cij-Jq-HVL"/>
                             </mask>
                         </variation>
                     </view>
@@ -162,10 +257,10 @@
             </objects>
             <point key="canvasLocation" x="1102" y="150"/>
         </scene>
-        <!--Books-->
+        <!--Books View Controller-->
         <scene sceneID="RhJ-NU-S8c">
             <objects>
-                <viewController id="JXh-Nj-nYb" customClass="Books" sceneMemberID="viewController">
+                <viewController id="JXh-Nj-nYb" customClass="BooksViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vIr-l2-Ovj"/>
                         <viewControllerLayoutGuide type="bottom" id="PUY-73-i9x"/>
@@ -176,21 +271,57 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mba-pJ-p71">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next &gt;"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="385" width="46" height="30"/>
+                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
                                 </variation>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a7" translatesAutoresizingMaskIntoConstraints="NO" id="N3p-6W-bvn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="201" y="50" width="198" height="306"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iba" translatesAutoresizingMaskIntoConstraints="NO" id="S5Q-tl-WVA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="118" width="173" height="253"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ibr" translatesAutoresizingMaskIntoConstraints="NO" id="kEB-mD-mYL">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="407" y="118" width="165" height="253"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26c-nh-Bol">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">Among my many tech based hobbies, I enjoy a number of other activities. Reading has always been enjoyable, some of my favorite books include: The Alex Rider series, Area 7, and Both Infinity Blade Novels.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="379" width="560" height="71"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Mba-pJ-p71"/>
+                                <exclude reference="N3p-6W-bvn"/>
+                                <exclude reference="S5Q-tl-WVA"/>
+                                <exclude reference="kEB-mD-mYL"/>
+                                <exclude reference="26c-nh-Bol"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="Mba-pJ-p71"/>
+                                <include reference="N3p-6W-bvn"/>
+                                <include reference="S5Q-tl-WVA"/>
+                                <include reference="kEB-mD-mYL"/>
+                                <include reference="26c-nh-Bol"/>
                             </mask>
                         </variation>
                     </view>
@@ -200,7 +331,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXv-Ri-RJ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="925"/>
+            <point key="canvasLocation" x="340" y="924.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="a7" width="311" height="475"/>
+        <image name="gs5" width="1280" height="1707"/>
+        <image name="ib" width="1200" height="1745"/>
+        <image name="iba" width="219" height="312"/>
+        <image name="ibr" width="800" height="1280"/>
+        <image name="jhs" width="414" height="296"/>
+        <image name="me" width="960" height="1280"/>
+        <image name="mom" width="4600" height="5300"/>
+        <image name="tp" width="800" height="1025"/>
+    </resources>
 </document>
