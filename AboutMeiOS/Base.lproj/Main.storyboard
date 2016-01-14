@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Digital View Controller-->
+        <!--Digital-->
         <scene sceneID="v1z-PW-bKd">
             <objects>
-                <viewController id="ez3-Yc-ME8" customClass="DigitalViewController" sceneMemberID="viewController">
+                <viewController title="Digital" id="ez3-Yc-ME8" customClass="DigitalViewController" customModule="AboutMeiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DH4-TO-Z8Y"/>
                         <viewControllerLayoutGuide type="bottom" id="LDb-cz-Nzy"/>
@@ -17,14 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rn6-vV-nL2">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
-                                </variation>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuH-Ul-78J">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuH-Ul-78J">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <string key="text">I enjoy a variety of digital media , such as video games as I mentioned before. Some of which are pictured below: Infinity Blade &amp; The Ace Attorney series. Both have exquisite stories and great gameplay. Along with these I play games from both the Metroid and Zelda series, with my favorite entries being Twilight Princess, Ocarina of Time, Majora's Mask, Super Metroid, Other M, and Prime 3. As far as movies and shows go, my favorites include The Star Wars Saga, and a number of Japanese anime series.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -33,17 +26,17 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="577" width="560" height="172"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="453" width="360" height="258"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ib" translatesAutoresizingMaskIntoConstraints="NO" id="7Ea-G9-0zg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="70" y="13" width="200" height="290"/>
                                 </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gs5" translatesAutoresizingMaskIntoConstraints="NO" id="fye-5R-Ym4">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="315" y="13" width="216" height="290"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="10" width="155" height="225"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mom" translatesAutoresizingMaskIntoConstraints="NO" id="4U7-oJ-Z4J">
@@ -51,45 +44,93 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="312" y="311" width="223" height="258"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="243" width="174" height="199"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tp" translatesAutoresizingMaskIntoConstraints="NO" id="MkA-SQ-KWS">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="70" y="311" width="200" height="258"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="243" width="161" height="204"/>
+                                </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gs5" translatesAutoresizingMaskIntoConstraints="NO" id="fye-5R-Ym4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="13" width="216" height="290"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="10" width="168" height="225"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUH-3r-j3M">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="750" width="46" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="684" width="46" height="27"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toIntro:" destination="ez3-Yc-ME8" eventType="touchUpInside" id="ydG-ud-beg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cjy-C0-sJL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="248" y="750" width="50" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="148" y="685" width="50" height="26"/>
+                                </variation>
+                                <connections>
+                                    <action selector="backToBooks:" destination="ez3-Yc-ME8" eventType="touchUpInside" id="sm7-Zd-XjP"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="rn6-vV-nL2"/>
                                 <exclude reference="xuH-Ul-78J"/>
                                 <exclude reference="7Ea-G9-0zg"/>
-                                <exclude reference="fye-5R-Ym4"/>
                                 <exclude reference="4U7-oJ-Z4J"/>
                                 <exclude reference="MkA-SQ-KWS"/>
+                                <exclude reference="fye-5R-Ym4"/>
+                                <exclude reference="YUH-3r-j3M"/>
+                                <exclude reference="Cjy-C0-sJL"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="rn6-vV-nL2"/>
                                 <include reference="xuH-Ul-78J"/>
                                 <include reference="7Ea-G9-0zg"/>
-                                <include reference="fye-5R-Ym4"/>
                                 <include reference="4U7-oJ-Z4J"/>
                                 <include reference="MkA-SQ-KWS"/>
+                                <include reference="fye-5R-Ym4"/>
+                                <include reference="YUH-3r-j3M"/>
+                                <include reference="Cjy-C0-sJL"/>
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntro" id="Khc-WH-h8L"/>
+                        <segue destination="JXh-Nj-nYb" kind="presentation" identifier="backToBooks" id="SrV-PE-DZe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qb-zh-VEN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1102" y="924.75"/>
+            <point key="canvasLocation" x="-120" y="935.25"/>
         </scene>
-        <!--Introduction View Controller-->
+        <!--Introduction-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="IntroductionViewController" sceneMemberID="viewController">
+                <viewController title="Introduction" id="BYZ-38-t0r" customClass="IntroductionViewController" customModule="AboutMeiOS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -98,17 +139,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWt-vo-8ja">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
-                                </variation>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me" translatesAutoresizingMaskIntoConstraints="NO" id="uik-Ff-wQm">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="180" y="20" width="240" height="302"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="20" width="240" height="302"/>
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-48-tfg">
@@ -120,35 +157,69 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="330" width="560" height="140"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="330" width="360" height="197"/>
+                                </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWt-vo-8ja">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="750" width="46" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="686" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toEdu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mmc-7A-nuh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X3-sW-dJ1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="248" y="750" width="50" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="148" y="686" width="50" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="backToDigi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0E8-9A-Juc"/>
+                                </connections>
+                            </button>
                         </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="qWt-vo-8ja"/>
                                 <exclude reference="uik-Ff-wQm"/>
                                 <exclude reference="Msw-48-tfg"/>
+                                <exclude reference="qWt-vo-8ja"/>
+                                <exclude reference="0X3-sW-dJ1"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="qWt-vo-8ja"/>
                                 <include reference="uik-Ff-wQm"/>
                                 <include reference="Msw-48-tfg"/>
+                                <include reference="qWt-vo-8ja"/>
+                                <include reference="0X3-sW-dJ1"/>
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="Kcw-bz-ysB" kind="modal" id="sLi-WQ-zkH"/>
+                        <segue destination="Kcw-bz-ysB" kind="modal" identifier="toEdu" id="sLi-WQ-zkH"/>
+                        <segue destination="ez3-Yc-ME8" kind="presentation" identifier="backToDigi" id="sk1-9X-QDm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-434" y="150"/>
+            <point key="canvasLocation" x="-591" y="150"/>
         </scene>
-        <!--Education View Controller-->
+        <!--Education-->
         <scene sceneID="fwG-eh-Vag">
             <objects>
-                <viewController id="Kcw-bz-ysB" customClass="EducationViewController" sceneMemberID="viewController">
+                <viewController title="Education" id="Kcw-bz-ysB" customClass="EducationViewController" customModule="AboutMeiOS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xOj-F9-Tud"/>
                         <viewControllerLayoutGuide type="bottom" id="b0X-qx-1aR"/>
@@ -157,13 +228,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVa-9T-aav">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
-                                </variation>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1h-n1-hx9">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <string key="text">As said before, I attend  High School at Jordan High in Sandy. this year as a Junior I am have dropped Chinese which I took for 4 years, and am attending CTEC. This leaves me with half of a schedule which is mostly comprised of Honors classes. In the past I have taken varied classes such, the aforementioned Chinese classes, Drawing, and Band where I played both the Flute and Saxophone.</string>
@@ -173,42 +237,78 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="332" width="560" height="135"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="332" width="360" height="190"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jhs" translatesAutoresizingMaskIntoConstraints="NO" id="3vz-W2-IDP">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="51" y="20" width="499" height="304"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="64" width="360" height="260"/>
+                                </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIt-k7-1a9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="750" width="46" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="689" width="46" height="27"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toCuisine:" destination="Kcw-bz-ysB" eventType="touchUpInside" id="n7C-nb-zii"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHg-3q-9k2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="248" y="750" width="50" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="148" y="689" width="50" height="27"/>
+                                </variation>
+                                <connections>
+                                    <action selector="backToIntro:" destination="Kcw-bz-ysB" eventType="touchUpInside" id="lLW-Gh-2nd"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToIntro" id="0tp-gX-1nZ"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="TVa-9T-aav"/>
                                 <exclude reference="W1h-n1-hx9"/>
                                 <exclude reference="3vz-W2-IDP"/>
+                                <exclude reference="bIt-k7-1a9"/>
+                                <exclude reference="wHg-3q-9k2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="TVa-9T-aav"/>
                                 <include reference="W1h-n1-hx9"/>
                                 <include reference="3vz-W2-IDP"/>
+                                <include reference="bIt-k7-1a9"/>
+                                <include reference="wHg-3q-9k2"/>
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="MfG-SU-X0h" kind="modal" id="p1I-zq-546"/>
+                        <segue destination="MfG-SU-X0h" kind="modal" identifier="toCuisine" id="p1I-zq-546"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29A-jR-HBT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="150"/>
+            <point key="canvasLocation" x="339" y="150"/>
         </scene>
-        <!--Cuisine View Controller-->
+        <!--Cuisine-->
         <scene sceneID="zXJ-fz-cDy">
             <objects>
-                <viewController id="MfG-SU-X0h" customClass="CuisineViewController" sceneMemberID="viewController">
+                <viewController title="Cuisine" id="MfG-SU-X0h" customClass="CuisineViewController" customModule="AboutMeiOS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t5u-WV-wtv"/>
                         <viewControllerLayoutGuide type="bottom" id="0vM-jz-X5U"/>
@@ -217,13 +317,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2c-Bl-lgF">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
-                                </variation>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cij-Jq-HVL">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <string key="text">Cuisine is most likely too fancy a word for the food I enjoy.  I will try just about anything, be it fancy or not, and then form an opinion from then on out. My favorites are typically types of ethnic foods such as Thai, Oriental, Latin, and more. Below is pictured what you'd call an "Arepa", a typical dish from my native Venezuelan culture, and a personal favorite of mine.</string>
@@ -233,34 +326,78 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="334" width="560" height="132"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="334" width="360" height="132"/>
+                                </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ar" translatesAutoresizingMaskIntoConstraints="NO" id="AsH-XM-hOP">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="41" width="424" height="285"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="86" width="360" height="240"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmQ-Qw-fZj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="750" width="46" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="689" width="46" height="27"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toBooks:" destination="MfG-SU-X0h" eventType="touchUpInside" id="DC5-rt-lyf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxH-MQ-iDN">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="248" y="750" width="50" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="148" y="689" width="50" height="27"/>
+                                </variation>
+                                <connections>
+                                    <action selector="backToEdu:" destination="MfG-SU-X0h" eventType="touchUpInside" id="1Er-5o-YKs"/>
+                                    <segue destination="Kcw-bz-ysB" kind="presentation" identifier="backToEdu" id="px2-Ei-bxV"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="c2c-Bl-lgF"/>
                                 <exclude reference="cij-Jq-HVL"/>
+                                <exclude reference="AsH-XM-hOP"/>
+                                <exclude reference="KmQ-Qw-fZj"/>
+                                <exclude reference="pxH-MQ-iDN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="c2c-Bl-lgF"/>
                                 <include reference="cij-Jq-HVL"/>
+                                <include reference="AsH-XM-hOP"/>
+                                <include reference="KmQ-Qw-fZj"/>
+                                <include reference="pxH-MQ-iDN"/>
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="JXh-Nj-nYb" kind="modal" id="TVb-Vw-aKj"/>
+                        <segue destination="JXh-Nj-nYb" kind="modal" identifier="toBooks" id="TVb-Vw-aKj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQ1-Q7-7DB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1102" y="150"/>
+            <point key="canvasLocation" x="1236" y="150"/>
         </scene>
-        <!--Books View Controller-->
+        <!--Books-->
         <scene sceneID="RhJ-NU-S8c">
             <objects>
-                <viewController id="JXh-Nj-nYb" customClass="BooksViewController" sceneMemberID="viewController">
+                <viewController title="Books" id="JXh-Nj-nYb" customClass="BooksViewController" customModule="AboutMeiOS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vIr-l2-Ovj"/>
                         <viewControllerLayoutGuide type="bottom" id="PUY-73-i9x"/>
@@ -269,17 +406,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mba-pJ-p71">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="277" y="750" width="46" height="30"/>
-                                </variation>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a7" translatesAutoresizingMaskIntoConstraints="NO" id="N3p-6W-bvn">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="201" y="50" width="198" height="306"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="176" width="128" height="195"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iba" translatesAutoresizingMaskIntoConstraints="NO" id="S5Q-tl-WVA">
@@ -287,11 +420,17 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="118" width="173" height="253"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="212" width="113" height="159"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ibr" translatesAutoresizingMaskIntoConstraints="NO" id="kEB-mD-mYL">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="407" y="118" width="165" height="253"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="277" y="212" width="103" height="159"/>
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26c-nh-Bol">
@@ -303,39 +442,73 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="379" width="560" height="71"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="379" width="360" height="116"/>
+                                </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdB-bM-9jV">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="750" width="46" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="688" width="46" height="28"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toDigi:" destination="JXh-Nj-nYb" eventType="touchUpInside" id="tSa-Cc-nsJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSy-bc-kfv">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="248" y="750" width="50" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="148" y="688" width="50" height="28"/>
+                                </variation>
+                                <connections>
+                                    <action selector="backToCuisine:" destination="JXh-Nj-nYb" eventType="touchUpInside" id="3Tl-eg-Idy"/>
+                                    <segue destination="MfG-SU-X0h" kind="presentation" identifier="backToCuisine" id="arb-jJ-1mb"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Mba-pJ-p71"/>
                                 <exclude reference="N3p-6W-bvn"/>
                                 <exclude reference="S5Q-tl-WVA"/>
                                 <exclude reference="kEB-mD-mYL"/>
                                 <exclude reference="26c-nh-Bol"/>
+                                <exclude reference="gdB-bM-9jV"/>
+                                <exclude reference="HSy-bc-kfv"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="Mba-pJ-p71"/>
                                 <include reference="N3p-6W-bvn"/>
                                 <include reference="S5Q-tl-WVA"/>
                                 <include reference="kEB-mD-mYL"/>
                                 <include reference="26c-nh-Bol"/>
+                                <include reference="gdB-bM-9jV"/>
+                                <include reference="HSy-bc-kfv"/>
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="ez3-Yc-ME8" kind="modal" id="uuN-tc-b8H"/>
+                        <segue destination="ez3-Yc-ME8" kind="modal" identifier="toDigi" id="uuN-tc-b8H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXv-Ri-RJ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="924.75"/>
+            <point key="canvasLocation" x="825" y="935.25"/>
         </scene>
     </scenes>
     <resources>
         <image name="a7" width="311" height="475"/>
+        <image name="ar" width="3012" height="2016"/>
         <image name="gs5" width="1280" height="1707"/>
         <image name="ib" width="1200" height="1745"/>
         <image name="iba" width="219" height="312"/>
@@ -345,4 +518,11 @@
         <image name="mom" width="4600" height="5300"/>
         <image name="tp" width="800" height="1025"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Khc-WH-h8L"/>
+        <segue reference="sk1-9X-QDm"/>
+        <segue reference="SrV-PE-DZe"/>
+        <segue reference="arb-jJ-1mb"/>
+        <segue reference="sLi-WQ-zkH"/>
+    </inferredMetricsTieBreakers>
 </document>
